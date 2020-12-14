@@ -1,0 +1,119 @@
+* {
+  box-sizing: border-box;
+  font-family: "Cinzel", serif;
+  font-family: "Sawarabi Mincho", sans-serif;
+}
+
+/* Reset */
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+  background-color: #d2d7d3;
+}
+
+/* Body */
+
+h1 {
+  margin: 30px 0 30px 30px;
+}
+
+.site {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+h2 {
+  font-family: "Cinzel", serif;
+  font-size: 35px;
+}
+
+h3 {
+  font-family: "Cinzel", serif;
+  font-size: 25px;
+  margin-bottom: 25px;
+}
+
+h4 {
+  color: #2e3131;
+  margin: 40px 0 0 0;
+}
+
+.jobpost {
+  color: #2e3131;
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  margin: 0 auto;
+  padding-left: 0;
+}
+
+.tasks {
+  color: #6c7a89;
+  margin: 10px 0;
+}
+
+.personal-details {
+  margin-bottom: 25px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+  text-align: center;
+  grid-template-areas:
+    "personal-details languages technologies"
+    "skills tools courses";
+  grid-row-gap: 10px;
+  grid-column-gap: 10px;
+}
+
+@media screen and (max-width: 667px) {
+  .grid-container {
+    grid-template-columns: auto auto;
+    grid-template-areas:
+      "personal-details languages"
+      "technologies skills"
+      "tools courses";
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
+  }
+
+  .site {
+    max-width: 350px;
+  }
+}
+
+.personal-details,
+.languages,
+.technologies,
+.skills,
+.tools,
+.courses {
+  background-color: #dadfe1;
+  border-radius: 25px;
+  padding: 0 10px 10px 10px;
+  margin-bottom: 10px;
+}
+
+/* footer */
+
+footer {
+  height: 100px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  color: #6c7a89;
+}
