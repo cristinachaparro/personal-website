@@ -6,6 +6,14 @@
 
 /* Reset */
 
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+  background-color: #d2d7d3;
+}
+
 .header {
   color: #f1f1f1;
 }
@@ -20,7 +28,7 @@
   padding-top: 102px;
 }
 
-ul {
+header ul {
   color: #2e3131;
   list-style: none;
   display: flex;
@@ -31,30 +39,27 @@ ul {
   margin: 25px 25px 50px 25px;
 }
 
-li a {
+header li a {
   font-size: 20px;
   font-family: "Cinzel", serif;
   margin: 10px 0 10px 0;
 }
 
-li a:hover {
+header li a:hover {
   text-decoration: underline;
   cursor: pointer;
 }
 
-li a:visited {
+header li a:visited {
   color: #95a5a6;
 }
 
-body {
-  margin: 0;
-  padding: 0;
-  height: 100vh;
-  width: 100vw;
-  background-color: #d2d7d3;
-}
+/* Footer */
 
-.site {
-  max-width: 800px;
-  margin: 0 auto;
+footer {
+  font-size: 15px;
+  font-weight: lighter;
+  color: #95a5a6;
+  text-align: center;
+  margin: 50px 0 25px 0;
 }

@@ -11,50 +11,9 @@ body {
   padding: 0;
   height: 100vh;
   width: 100vw;
-  background-color: #d2d7d3;
 }
 
 /* Body */
-
-.header {
-  color: #f1f1f1;
-}
-
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-
-.sticky + .site {
-  padding-top: 102px;
-}
-
-.headerlist {
-  color: #2e3131;
-  list-style: none;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  justify-content: space-evenly;
-  padding: 0;
-  margin: 25px 25px 50px 25px;
-}
-
-li a {
-  font-size: 20px;
-  font-family: "Cinzel", serif;
-  margin: 10px 0 10px 0;
-}
-
-li a:hover {
-  text-decoration: underline;
-  cursor: pointer;
-}
-
-li a:visited {
-  color: #95a5a6;
-}
 
 h1 {
   margin: 30px 0 30px 30px;
@@ -148,26 +107,9 @@ ul {
   max-width: 700px;
 }
 
-.personal-details,
-.languages,
-.technologies,
-.skills,
-.tools,
-.courses {
+.grid-element {
   background-color: #dadfe1;
   border-radius: 25px;
   padding: 0 10px 0px 10px;
   margin-bottom: 10px;
-}
-
-/* footer */
-
-footer {
-  height: 100px;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0 auto;
-  color: #6c7a89;
 }
