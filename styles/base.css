@@ -61,8 +61,12 @@ header li a:hover {
   cursor: pointer;
 }
 
-header li a:visited {
-  color: #95a5a6;
+a {
+  color: #2e3131;
+}
+
+a:visited {
+  color: #616d7b;
 }
 
 /* Footer */

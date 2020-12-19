@@ -12,6 +12,10 @@ body {
 
 /* Body */
 
+.header {
+  background-color: #ecf0f1;
+}
+
 h1 {
   color: #2e3131;
   margin: 50px 0 50px 0;
