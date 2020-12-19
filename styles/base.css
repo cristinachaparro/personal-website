@@ -26,8 +26,14 @@ body {
 .sticky {
   position: fixed;
   top: 0;
+  left: 0;
   width: 100%;
+  z-index: 1;
+}
+
+.sticky ul {
   max-width: 800px;
+  margin: 0 auto;
 }
 
 .sticky + .site {
