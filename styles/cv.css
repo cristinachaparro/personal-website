@@ -20,6 +20,8 @@ h1 {
 }
 
 .site {
+  position: relative;
+  min-height: 100vh;
   display: flex;
   flex-flow: column;
   justify-content: center;
@@ -112,4 +114,8 @@ ul {
   border-radius: 25px;
   padding: 0 10px 0px 10px;
   margin-bottom: 10px;
+}
+
+.footer {
+  position: relative;
 }
