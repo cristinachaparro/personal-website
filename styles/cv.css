@@ -69,12 +69,12 @@ h4 {
   grid-column-gap: 10px;
 }
 
-@media screen and (max-width: 920px) {
+@media screen and (max-width: 960px) {
   .grid-container {
     grid-template-columns: auto auto;
     grid-area: auto;
     grid-template-columns: repeat(2, 300px);
-    grid-template-rows: repeat(3, 310px);
+    grid-template-rows: repeat(3, auto);
     grid-template-areas:
       "personal-details languages"
       "technologies skills"
@@ -91,16 +91,19 @@ h4 {
   }
 }
 
-@media screen and (max-width: 610px) {
+@media screen and (max-width: 650px) {
   .grid-container {
     grid-template-columns: auto;
     grid-area: auto;
-    grid-template-columns: repeat(1, 300px);
-    grid-template-rows: repeat(6, 310px);
+    grid-template-columns: 300px;
+    grid-template-rows: repeat(6, auto);
     grid-template-areas:
-      "personal-details languages"
-      "technologies skills"
-      "tools courses";
+      "personal-details"
+      "languages"
+      "technologies"
+      "skills"
+      "tools"
+      "courses";
   }
 }
 
@@ -111,8 +114,7 @@ h4 {
 .grid-element {
   background-color: #dadfe1;
   border-radius: 25px;
-  padding: 0 10px 0px 10px;
-  margin-bottom: 10px;
+  padding: 0 10px 30px;
 }
 
 .footer {
