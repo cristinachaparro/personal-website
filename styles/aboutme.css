@@ -1,6 +1,5 @@
 * {
   box-sizing: border-box;
-  font-family: "Cinzel", serif;
   font-family: "Sawarabi Mincho", sans-serif;
 }
 
@@ -19,4 +18,12 @@ body {
 .site {
   max-width: 800px;
   margin: 0 auto;
+}
+
+img {
+  border-radius: 300px;
+  display: flex;
+  justify-content: center;
+  margin: 30px auto 30px auto;
+  height: 300px;
 }

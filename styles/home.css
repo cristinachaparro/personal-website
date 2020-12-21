@@ -1,6 +1,5 @@
 * {
   box-sizing: border-box;
-  font-family: "Cinzel", serif;
   font-family: "Sawarabi Mincho", sans-serif;
 }
 
@@ -35,6 +34,7 @@ img {
   display: flex;
   justify-content: center;
   margin: 0 auto 50px auto;
+  height: 300px;
 }
 
 .intro {
